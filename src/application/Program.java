@@ -27,6 +27,16 @@ public class Program {
 			System.out.println(seller2.toString());
 		}
 		
+		System.out.println("\nteste findAll ---------:>");
+		lista = sd.findAll();
+		for (Seller seller2 : lista) {
+			System.out.println(seller2.toString());
+		}
+		
+		
+		System.out.println("\nteste Delete");
+		sd.deleteById(12);
+		
 	}
 
 }
